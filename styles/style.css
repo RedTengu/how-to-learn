@@ -3,9 +3,7 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-
   margin: 0 auto;
-
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -15,43 +13,32 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  
   display: flex;
-
   position: relative;
-
   background-color: #f2f2f2;
 }
 
 .header__title {
-  width: 730px;
-
+  max-width: 730px;
   margin: 0;
   padding: 0;
   margin-left: 64px;
-
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-
   align-self: center;
-
   z-index: 3;
 }
 
 .header__subtitle {
   width: 388px;
-
   margin: 0;
-
   position: absolute;
   bottom: 30px;
   left: 64px;
-
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-
   z-index: 3;
 }
 
@@ -63,22 +50,18 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-
   position: absolute;
   bottom: 0;
   right: 0;
-
   z-index: 2;
 }
 
 .header__square-pic {
   height: 568px;
   width: 568px;
-
   position: absolute;
   top: 64px;
   right: 0;
-
   background-color: #2f80ed;
   z-index: 1;
 }
@@ -98,24 +81,20 @@
 
 .description {
   padding-top: 100px;
-
   display: flex;
   justify-content: center;
 }
 
 .two-columns {
   width: 80%;
-
   display: flex;
   justify-content: space-between;
 }
 
 .two-columns__brief {
   width: 175px;
-
   margin: 0;
   padding: 0;
-
   color: #2f80ed;
   font-size: 18px;
   font-weight: normal;
@@ -125,7 +104,6 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -151,7 +129,6 @@
 .digits {
   padding-top: 100px;
   padding-bottom: 100px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -159,11 +136,9 @@
 
 .section-title {
   width: 60%;
-  
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
-  
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
@@ -172,9 +147,7 @@
 
 .section-subtitle {
   width: 60%;
-
   margin: 0;
-
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -183,7 +156,9 @@
 
 .table {
   width: 1100px;
-
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -191,7 +166,6 @@
 
 .table__cell {
   width: 250px;
-
   margin-right: 0;
   margin-top: 60px;
 }
@@ -199,7 +173,6 @@
 .table__heading {
   margin: 0;
   padding: 0;
-
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
@@ -207,7 +180,6 @@
 
 .table__text {
   margin-bottom: 20px;
-
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -220,23 +192,15 @@
 /* Feynman */
 
 .feynman {
-  height: 890px;
-
+  min-height: 890px;
   position: relative;
-
-  background-color: #f2f2f2;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 867px 637px;
+  background: url('../images/feynman.png') no-repeat left bottom/867px 637px #F2F2F2;
 }
 
 .feynman__title {
   width: 648px;
-
   padding: 100px 0 0;
   margin: 0 auto;
-
   text-align: center;
   font-size: 120px;
   font-weight: 600;
@@ -246,7 +210,6 @@
 .feynman__subtitle {
   margin: 0;
   margin-top: 70px;
-
   text-align: center;
   font-size: 36px;
   font-weight: normal;
@@ -257,7 +220,6 @@
   position: absolute;
   top: 50%;
   right: 48px;
-
   text-decoration: none;
   color: #2f80ed;
   font-size: 36px;
@@ -270,50 +232,39 @@
 .kaufman {
   padding-top: 90px;
   padding-bottom: 90px;
-
   overflow: hidden;
-
   position: relative;
-
   background-color: #1f1f1f;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-
+  background: url(../images/kaufman-triangle.svg) no-repeat top/cover;
   position: absolute;
   right: -210px;
   top: 0;
-
   z-index: 1;
 }
 
 .section-title_theme_dark {
   color: white;
-
   z-index: 2;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-
   z-index: 2;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-
   color: white;
-
   margin-right: 0;
   margin-top: 80px;
-
   z-index: 2;
 }
 
@@ -322,21 +273,16 @@
 .footer {
   box-sizing: border-box;
   min-height: 350px;
-
   padding-top: 60px;
   padding-bottom: 40px;
-
   display: flex;
   justify-content: center;
-
   color: white;
-
   background-color: #1f1f1f;
 }
 
 .footer__columns {
   width: 90%;
-
   display: flex;
   justify-content: space-between;
 }
@@ -350,9 +296,7 @@
 
 .footer__author {
   width: 180px;
-
   margin: 18px 0;
-  
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -361,7 +305,6 @@
 .footer__column-heading {
   margin: 0;
   padding: 0;
-
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
@@ -370,11 +313,9 @@
 .footer__column-links {
   margin-top: 20px;
   margin-bottom: 16px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
@@ -388,6 +329,5 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-
   margin-right: 10px;
 }
