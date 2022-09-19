@@ -1,10 +1,7 @@
 .table__text {
-  margin-bottom: 20px;
+  margin: 0;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
-}
-
-.table__text:last-of-type {
-  margin-bottom: 0px;
 }
