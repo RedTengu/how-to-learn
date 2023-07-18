@@ -20,4 +20,4 @@
 
 ## Демо
 
-[Click here!](https://redtengu.github.io/how-to-learn)
+👉 [Click here!](https://redtengu.github.io/how-to-learn) 👈
